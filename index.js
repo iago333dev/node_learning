@@ -1,10 +1,6 @@
 const express = require("express");
 const app = express();
 
-
-
-
-
 //Considera a pasta "Public ao iniciar progama"
 app.use(express.static('public'))
 
